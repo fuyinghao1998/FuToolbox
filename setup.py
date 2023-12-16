@@ -1,6 +1,5 @@
 from setuptools import setup
-with open('README.md') as f:
-    #long_description = f.read()
+
     
 print(long_description)
 setup(
@@ -9,8 +8,6 @@ setup(
   version = '0.0.1',      # add new feature: PAI method
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Tool code collection (for personal use)',
-  long_description=long_description,
-  long_description_content_type = 'text/markdown',
   author = 'Fu Yinghao',                   # Type in your name
   author_email = 'yhfu1998@163.com',      # Type in your E-Mail
   url = 'https://github.com/fuyinghao1998/FuToolbox',   # Provide either the link to your github or to your website
