@@ -5,7 +5,7 @@ with open('README.md', encoding='utf-8') as f:
 print(long_description)
 setup(
   name = 'FuToolbox',         # How you named your package folder (MyLib)
-  packages = ['FuToolbox''],   # Chose the same as "name"
+  packages = ['FuToolbox'],   # Chose the same as "name"
   version = '0.0.1',      # add new feature: PAI method
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Tool code collection (for personal use)',
