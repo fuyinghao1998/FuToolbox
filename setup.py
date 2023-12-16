@@ -1,12 +1,16 @@
 from setuptools import setup
+#from setuptools import setup
+#with open('README.md', encoding='utf-8') as f:
+    #long_description = f.read()
     
+#print(long_description)
 setup(
   name = 'FuToolbox',         # How you named your package folder (MyLib)
   packages = ['FuToolbox''],   # Chose the same as "name"
   version = '0.0.1',      # add new feature: PAI method
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Tool code collection (for personal use)',
-  long_description=open('README.md', encoding='utf-8').read（）
+  long_description=open('README.md', encoding='utf-8').read()
   long_description_content_type = 'text/markdown',
   author = 'Fu Yinghao',                   # Type in your name
   author_email = 'yhfu1998@163.com',      # Type in your E-Mail
